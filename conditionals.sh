@@ -2,9 +2,13 @@
 
 myNum=300
 
-if [ $myNum -eq 200 ]
+# NEW: -ne stands for "not equal"
+# -gt = "greater than"
+# -lt = "less than"
+# il y a probablement plus que ça mais je m'arrête ici
+if [ $myNum -ne 200 ]
 then
 	echo "Condition est vraie"
 else
-	echo "Le valeur n'égale pas 200"
+	echo "La valeur n'est pas ce que l'on attend"
 fi
