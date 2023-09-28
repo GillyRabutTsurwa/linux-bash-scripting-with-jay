@@ -1,14 +1,12 @@
 #!/bin/bash
 
-myNum=300
-
-# NEW: -ne stands for "not equal"
-# -gt = "greater than"
-# -lt = "less than"
-# il y a probablement plus que ça mais je m'arrête ici
-if [ $myNum -ne 200 ]
+# make a checkedFile folder and remove it to see the if statement in action
+# -f stands for file. -d stands for directory
+# these are what we use when working with files and folders; particularly checking on them
+# i also go through the which command, but i may not write any code for this one. hence the comment
+if [ -f ./checkedFile ]
 then
-	echo "Condition est vraie"
+	echo "Le fichier existe"
 else
-	echo "La valeur n'est pas ce que l'on attend"
+	echo "Le fichier n'existe pas"
 fi
