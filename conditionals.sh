@@ -1,12 +1,20 @@
 #!/bin/bash
 
-# make a checkedFile folder and remove it to see the if statement in action
-# -f stands for file. -d stands for directory
-# these are what we use when working with files and folders; particularly checking on them
-# i also go through the which command, but i may not write any code for this one. hence the comment
-if [ -f ./checkedFile ]
+command=/usr/bin/htop
+
+if [ -f $command ]
 then
-	echo "Le fichier existe"
+	echo "$command is available. Let's run it"
 else
-	echo "Le fichier n'existe pas"
+	echo "$command is NOT available. Installing it"
+	sudo apt update && sudo apt install -y htop
 fi
+
+$command
+
+# voici ce qui fait le code là-dessûs
+# il cherche la ficher qui sert à démarrer et gerer le package htop
+# si le fichier existe, on écrira à l'écran que htop est disponible et on va executer le package
+# si non, on écrira que le package n'est pas disponible et on va installer ce package-là
+# après l'avoir installé, on execute
+
