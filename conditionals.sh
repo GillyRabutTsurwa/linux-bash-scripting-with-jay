@@ -1,13 +1,14 @@
 #!/bin/bash
-
-command=/usr/bin/htop
-
-if [ -f $command ]
+# variable now equals the command, and not the path to the command
+programme=htop
+# the command "command -v" lets us know if a specific command is available
+# also i realised that you can run htop using "htop" or "/usr/bin/htop"
+if command -v $programme
 then
 	echo "$command is available. Let's run it"
 else
 	echo "$command is NOT available. Installing it"
-	sudo apt update && sudo apt install -y htop
+	sudo apt update && sudo apt install -y $programme
 fi
 
 $command
