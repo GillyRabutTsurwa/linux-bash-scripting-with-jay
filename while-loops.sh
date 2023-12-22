@@ -1,10 +1,18 @@
 #!/bin/bash
 
-num=0
-
-while [ $num -le 10 ]  # while num is less than or equal to 10
+while [ -f ~/Bureau/fichier.txt ]
 do
-	echo $num # print the number
-	num=$(( $num + 1 )) # increment the number (equivalent to num++ or num+=1 in JavaScript)
-	sleep 2s # i think this acts like setTimeout in JavaScript
+	echo "The file exists"
+	sleep 5s
 done
+
+echo "The file no longer exists. Exiting"
+
+# Attention
+# as long as the file in question exists, the echo statement in the while loop will continue to be printed
+# this does not cause an infinite loop persé, but it surely behaves like one
+# obviously when we remove the file, the loop stops
+# do not see how this is relevant à l'instant
+# the fans kicked in not too long after script execution, as expected
+# to make things less overwhelming for the cpu and more readable, i will add the sleep command
+# this will execute the code inside the while loop after every 5 seconds in my case
