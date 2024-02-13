@@ -1,0 +1,13 @@
+below command edits crontab for current user:
+crontab -e 
+
+to edit another user's cronjob use:
+sudo crontab -u username -e
+
+IMPORTANT:
+use the fully file path of a command when executing a script via cron
+reasons:
+1 - security
+2 - cron may run in a separate file environment that has different values for the PATH variable. specify full path so that it works no matter what
+
+will add notes here later
