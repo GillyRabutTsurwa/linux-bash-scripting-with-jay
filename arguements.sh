@@ -1,14 +1,18 @@
 #!/bin/bash
 
-lines=$(ls -lh $5 | wc -l);
+lines=$(ls -lh $1 | wc -l);
 
-# the $n syntaxe is how to add arguements to your scripts
-echo "You entered the arguement: $1";
+# IMPORTANT: we use the special $# variable to determine the number of arguments we have set up in our script
+# so we can do something like this:
 
-# you can add multiple arguements
-echo "You entered more arguements: $2, $3, $4";
+if [ $# -ne 1 ] # if we don't get exactly one arguement in the script
+then
+	# the run this code that will eventually stop script execution
+	echo "This script requires exactly one arguement";
+	echo "Try again";
+	echo "Stopping script execution";
+	sleep 1s;
+	exit 1; # NOTE: techinically there's no failure, so i am enforcing an exit code because the script did not work as intended if we have gotten to this point
+fi
 
-# i must have missed this in the mathematics lesson
-# the way to evaluate and output maths expressions is by using the $(()) syntaxe
-# found the solution in this article: https://www.shell-tips.com/bash/math-arithmetic-calculation/#gsc.tab=0
 echo "You have $((lines-1)) objects in the $5 directory";
