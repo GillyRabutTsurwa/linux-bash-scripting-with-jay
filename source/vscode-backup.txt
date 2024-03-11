@@ -1,0 +1,312 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "emmet.includeLanguages": {
+        "svelte": "html"
+    },
+
+    "editor.fontSize": 16,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#FFD700",
+        "[SynthWave '84]": {
+            "editor.background": "#000",
+            "editorGutter.background": "#000",
+            "editorGroupHeader.noTabsBackground": "#fa8072",
+            "editorGroupHeader.tabsBackground": "#000",
+            "sideBar.background": "#000",
+            "sideBarSectionHeader.background": "#000",
+            "activityBar.background": "#000",
+            "activityBar.foreground": "#e94893",
+            "editorLineNumber.activeForeground": "#ffbb00dc",
+            "statusBar.background": "#000",
+            "statusBar.foreground": "#e94893",
+            "tab.inactiveBackground": "#000",
+            "tab.activeBackground": "#000"
+        },
+        "[GitHub Dark High Contrast]": {
+            "editor.background": "#000",
+            "sideBar.background": "#000",
+            "terminal.background": "#000"
+        },
+
+        "[Matrix]": {
+            "editor.background": "#000",
+            "sideBar.background": "#000",
+            "editorGutter.background": "#000",
+            "terminal.background": "#000"
+        }
+    },
+
+    "synthwave84.brightness": 0.75,
+    "darkSynthwave84.brightness": 0.85,
+
+    "autoprefixer.formatOnSave": true,
+
+    "explorer.compactFolders": false,
+
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tokenColorCustomizations": {
+        "comments": "#ffffffde"
+    },
+    "editor.fontLigatures": true,
+    "editor.foldingStrategy": "indentation",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 150,
+
+    "prettier.singleQuote": false,
+    "prettier.bracketSpacing": true,
+    "prettier.printWidth": 150,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSameLine": true,
+    "prettier.tabWidth": 4,
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "diffEditor.codeLens": true
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "typescript.validate.enable": true,
+    "volar.inlayHints.eventArgumentInInlineHandlers": false,
+
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE",
+            "backgroundColor": "#90EE90",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "FIX",
+            "backgroundColor": "cornflowerblue",
+            "overviewRulerColor": "white",
+            "color": "white"
+        },
+        {
+            "text": "QUESTION",
+            "backgroundColor": "lightcoral",
+            "overviewRulerColor": "white",
+            "color": "#000"
+        },
+        {
+            "text": "NEW",
+            "backgroundColor": "#FAEBD7",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "IMPORTANT",
+            "backgroundColor": "#FDFF60",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "IDEA",
+            "backgroundColor": "#2A55D3",
+            "overviewRulerColor": "#FFF",
+            "color": "#FFF"
+        },
+        {
+            "text": "TESTING",
+            "backgroundColor": "#CD5C5C",
+            "overviewRulerColor": "#FFF",
+            "color": "#FFF"
+        },
+        {
+            "text": "PASS",
+            "backgroundColor": "#228B22",
+            "overviewRulerColor": "#FFF",
+            "color": "#FFF"
+        },
+        {
+            "text": "FAIL",
+            "backgroundColor": "#B22222",
+            "overviewRulerColor": "#FFF",
+            "color": "#FFF"
+        },
+        {
+            "text": "DONE",
+            "backgroundColor": "#EE82EE",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "TODO",
+            "overviewRulerColor": "#000",
+            "color": "#000"
+        },
+        {
+            "text": "COMPONENT",
+            "backgroundColor": "#46fff0",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "SECTION",
+            "backgroundColor": "#4DF8B0",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "FUNCTIONS",
+            "backgroundColor": "#00BFFF",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "VARIABLES",
+            "backgroundColor": "#BA55D3",
+            "overviewRulerColor": "#FFF",
+            "color": "#FFF"
+        },
+        {
+            "text": "EXEMPLE",
+            "backgroundColor": "#7FF5D6",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "EXAMPLE",
+            "backgroundColor": "#7FF5D6",
+            "overviewRulerColor": "#FFF",
+            "color": "#000"
+        },
+        {
+            "text": "@todo",
+            "backgroundColor": "#7FF5D6",
+            "overviewRulerColor": "#FFF"
+        }
+    ],
+    "workbench.settings.editor": "json",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "gitlens.hovers.currentLine.over": "line",
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pdo_ibm",
+        "pdo_mysql",
+        "pdo_pgsql",
+        "pdo_sqlite",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "wordpress"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "svelte.enable-ts-plugin": true,
+    "files.associations": {
+        "*.env": "dotenv"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "gitlens.defaultDateFormat": "dddd, Do MMMM YYYY, h:mm a",
+    "editor.glyphMargin": false,
+    "rapidapi.terminalLink.enabled": true,
+    "gitProjectManager.baseProjectsFolders": ["/home/rabuttsurwa96/Documents/Web Development"],
+    "gitProjectManager.ignoredFolders": ["node_modules"],
+    "volar.icon.splitEditors": true,
+    "inline-bookmarks.default.words.blue": "@audit\\-info[\\s], @todo[\\s], @todo\\:[\\s], TODO[\\s], TODO\\:[\\s], @note[\\s], @remind[\\s], @follow-up[\\s]",
+    "sassVariablesHelper.route": "false",
+    "workbench.colorTheme": "SynthWave '84",
+    "workbench.iconTheme": "material-icon-theme",
+    "spotify.showToggleShufflingButton": true,
+    "spotify.showUnmuteVolumeButton": true,
+    "spotify.showToggleRepeatingButton": true,
+    "spotify.showPlayButton": true,
+    "spotify.showPauseButton": true,
+    "spotify.showMuteVolumeButton": true
+}
+

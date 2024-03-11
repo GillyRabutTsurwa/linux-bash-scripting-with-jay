@@ -1,0 +1,11 @@
+Plugin Updates
+
+akismet has been successfully updated
+amp has been successfully updated
+google-analytics-for-wordpress has been successfully updated
+codepeople-post-map has been successfully updated
+gravityforms has been successfully updated
+simple-social-icons has been successfully updated
+wordpress-importer has been successfully updated
+wp-job-manager has been successfully updated
+Voici mon intro
